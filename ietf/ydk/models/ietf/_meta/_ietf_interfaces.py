@@ -25,6 +25,1098 @@ _meta_table = {
         'ydk.models.ietf.ietf_interfaces'
         ),
     },
+    'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.ClassifierEntryStatistics' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.ClassifierEntryStatistics',
+            False, 
+            [
+            _MetaInfoClassMember('classified-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                 Number of total bytes which filtered
+                 to the classifier-entry
+                ''',
+                'classified_bytes',
+                'ietf-qos-target', False),
+            _MetaInfoClassMember('classified-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                 Number of total packets which filtered
+                 to the classifier-entry
+                ''',
+                'classified_pkts',
+                'ietf-qos-target', False),
+            _MetaInfoClassMember('classified-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                 Rate of average data flow through the
+                 classifier-entry
+                ''',
+                'classified_rate',
+                'ietf-qos-target', False),
+            ],
+            'ietf-qos-target',
+            'classifier-entry-statistics',
+            _yang_ns._namespaces['ietf-qos-target'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTwoColorMeterStatistics' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTwoColorMeterStatistics',
+            False, 
+            [
+            _MetaInfoClassMember('conform-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of conform packets
+                ''',
+                'conform_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('conform-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of conform packets
+                ''',
+                'conform_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('conform-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as conformimg
+                ''',
+                'conform_rate',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of packets counted as exceeding
+                ''',
+                'exceed_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of packets counted as exceeding
+                ''',
+                'exceed_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as exceeding
+                ''',
+                'exceed_rate',
+                'ietf-diffserv', False),
+            ],
+            'ietf-diffserv',
+            'one-rate-two-color-meter-statistics',
+            _yang_ns._namespaces['ietf-diffserv'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTriColorMeterStatistics' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTriColorMeterStatistics',
+            False, 
+            [
+            _MetaInfoClassMember('conform-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of conform packets
+                ''',
+                'conform_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('conform-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of conform packets
+                ''',
+                'conform_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('conform-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as conformimg
+                ''',
+                'conform_rate',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of packets counted as exceeding
+                ''',
+                'exceed_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of packets counted as exceeding
+                ''',
+                'exceed_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as exceeding
+                ''',
+                'exceed_rate',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('violate-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of packets counted as violating
+                ''',
+                'violate_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('violate-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of packets counted as violating
+                ''',
+                'violate_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('violate-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as violating
+                ''',
+                'violate_rate',
+                'ietf-diffserv', False),
+            ],
+            'ietf-diffserv',
+            'one-rate-tri-color-meter-statistics',
+            _yang_ns._namespaces['ietf-diffserv'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.TwoRateTriColorMeterStatistics' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.TwoRateTriColorMeterStatistics',
+            False, 
+            [
+            _MetaInfoClassMember('conform-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of conform packets
+                ''',
+                'conform_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('conform-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of conform packets
+                ''',
+                'conform_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('conform-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as conformimg
+                ''',
+                'conform_rate',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of packets counted as exceeding
+                ''',
+                'exceed_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of packets counted as exceeding
+                ''',
+                'exceed_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('exceed-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as exceeding
+                ''',
+                'exceed_rate',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('violate-bytes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Bytes of packets counted as violating
+                ''',
+                'violate_bytes',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('violate-pkts', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Number of packets counted as violating
+                ''',
+                'violate_pkts',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('violate-rate', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                Traffic Rate measured as violating
+                ''',
+                'violate_rate',
+                'ietf-diffserv', False),
+            ],
+            'ietf-diffserv',
+            'two-rate-tri-color-meter-statistics',
+            _yang_ns._namespaces['ietf-diffserv'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics',
+            False, 
+            [
+            _MetaInfoClassMember('one-rate-tri-color-meter-statistics', REFERENCE_CLASS, 'OneRateTriColorMeterStatistics' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTriColorMeterStatistics', 
+                [], [], 
+                '''                One rate tri color marker meter statistics
+                ''',
+                'one_rate_tri_color_meter_statistics',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('one-rate-two-color-meter-statistics', REFERENCE_CLASS, 'OneRateTwoColorMeterStatistics' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTwoColorMeterStatistics', 
+                [], [], 
+                '''                One rate two color marker meter statistics
+                ''',
+                'one_rate_two_color_meter_statistics',
+                'ietf-diffserv', False),
+            _MetaInfoClassMember('two-rate-tri-color-meter-statistics', REFERENCE_CLASS, 'TwoRateTriColorMeterStatistics' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.TwoRateTriColorMeterStatistics', 
+                [], [], 
+                '''                Two rate tri color marker meter statistics
+                ''',
+                'two_rate_tri_color_meter_statistics',
+                'ietf-diffserv', False),
+            ],
+            'ietf-diffserv',
+            'diffserv-action-statistics',
+            _yang_ns._namespaces['ietf-diffserv'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics',
+            False, 
+            [
+            _MetaInfoClassMember('classifier-entry-name', ATTRIBUTE, 'str' , None, None, 
+                [], [], 
+                '''                Classifier Entry Name
+                ''',
+                'classifier_entry_name',
+                'ietf-qos-target', False),
+            _MetaInfoClassMember('classifier-entry-statistics', REFERENCE_CLASS, 'ClassifierEntryStatistics' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.ClassifierEntryStatistics', 
+                [], [], 
+                '''                
+                This group defines the classifier filter statistics of
+                each classifier entry
+                
+                ''',
+                'classifier_entry_statistics',
+                'ietf-qos-target', False),
+            _MetaInfoClassMember('diffserv-action-statistics', REFERENCE_CLASS, 'DiffservActionStatistics' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics', 
+                [], [], 
+                '''                meter statistics
+                ''',
+                'diffserv_action_statistics',
+                'ietf-diffserv', False),
+            ],
+            'ietf-qos-target',
+            'qos-target-classifier-statistics',
+            _yang_ns._namespaces['ietf-qos-target'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.QosTargetEntry' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.QosTargetEntry',
+            False, 
+            [
+            _MetaInfoClassMember('direction', REFERENCE_IDENTITY_CLASS, 'DirectionIdentity' , 'ydk.models.ietf.ietf_qos_target', 'DirectionIdentity', 
+                [], [], 
+                '''                Direction fo the traffic flow either inbound or outbound
+                ''',
+                'direction',
+                'ietf-qos-target', True),
+            _MetaInfoClassMember('policy-type', REFERENCE_IDENTITY_CLASS, 'PolicyTypeIdentity' , 'ydk.models.ietf.ietf_qos_policy', 'PolicyTypeIdentity', 
+                [], [], 
+                '''                Policy entry type
+                ''',
+                'policy_type',
+                'ietf-qos-target', True),
+            _MetaInfoClassMember('policy-name', ATTRIBUTE, 'str' , None, None, 
+                [], [], 
+                '''                Policy entry name
+                ''',
+                'policy_name',
+                'ietf-qos-target', False),
+            _MetaInfoClassMember('qos-target-classifier-statistics', REFERENCE_LIST, 'QosTargetClassifierStatistics' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics', 
+                [], [], 
+                '''                Statistics for each Classifier Entry in a Policy
+                ''',
+                'qos_target_classifier_statistics',
+                'ietf-qos-target', False),
+            ],
+            'ietf-qos-target',
+            'qos-target-entry',
+            _yang_ns._namespaces['ietf-qos-target'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Optifochrsss.IfCurrentMode' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Optifochrsss.IfCurrentMode',
+            False, 
+            [
+            _MetaInfoClassMember('a-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the radial noise
+                component for this mode
+                ''',
+                'a_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('bits-per-symbol', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter the bits per symbol for
+                 this mode.
+                ''',
+                'bits_per_symbol',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-ber-exponent-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Exponent of the FEC BER threshold
+                ''',
+                'fec_ber_exponent_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-ber-mantissa-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 Mantissa of the FEC BER threshold
+                ''',
+                'fec_ber_mantissa_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-bitrate', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Fec Overhead rate 
+                ''',
+                'fec_bitrate',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-gain', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Fec Overhead rate 
+                ''',
+                'fec_gain',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-info', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Fec Type - eg GFEC
+                ''',
+                'fec_info',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('i-center', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The In-phase coordinate of the selected
+                constellation symbol for this mode
+                ''',
+                'i_center',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('i-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the in-phase noise
+                component for this mode
+                ''',
+                'i_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-central-frequency', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                This parameter indicates the minimum
+                 frequency for this template  
+                ''',
+                'max_central_frequency',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-chromatic-dispersion', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Maximum chromatic dispersion of this
+                 mode for this interface
+                ''',
+                'max_chromatic_dispersion',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-diff-group-delay', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Maximum Differential group delay of this
+                 mode for this interface
+                ''',
+                'max_diff_group_delay',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-input-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The maximum input power of this
+                interface
+                ''',
+                'max_input_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-laser-temperature', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Maximum Laser Temperature of this mode for
+                  this interface
+                ''',
+                'max_laser_temperature',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-output-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The maximum output power of this
+                interface
+                ''',
+                'max_output_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-rx-optical-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                Maximum rx optical power of this mode for
+                 this interface
+                ''',
+                'max_rx_optical_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-central-frequency', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                This parameter indicates the minimum
+                 frequency for this template  
+                ''',
+                'min_central_frequency',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-chromatic-dispersion', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Minimum chromatic dispersion of this mode
+                 for this interface
+                ''',
+                'min_chromatic_dispersion',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-diff-group-delay', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Minimum Differential group delay of this
+                 mode for this interface
+                ''',
+                'min_diff_group_delay',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-input-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The minimum input power of this
+                interface
+                ''',
+                'min_input_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-laser-temperature', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Minimum Laser Temperature of this mode for
+                  this interface
+                ''',
+                'min_laser_temperature',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-output-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The minimum output power of this
+                interface
+                ''',
+                'min_output_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-rx-optical-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                Minimum rx optical power of this mode for
+                 this interface
+                ''',
+                'min_rx_optical_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('mode-id', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Id for the OCh mode template
+                ''',
+                'mode_id',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('modulation-format', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Modulation format for this mode
+                ''',
+                'modulation_format',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('num-symbols-in-alphabet', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter the bits per symbol for
+                 this mode.
+                ''',
+                'num_symbols_in_alphabet',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('number-of-lanes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                Number of optical lanes of this interface
+                ''',
+                'number_of_lanes',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('osnr-margin', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                OSNR margin to FEC threshold
+                ''',
+                'osnr_margin',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('p-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the phase noise
+                component for this mode
+                ''',
+                'p_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-center', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Quadrature coordinate of the selected
+                constellation symbol for this mode
+                ''',
+                'q_center',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-margin', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Q-Factor margin to FEC threshold
+                ''',
+                'q_margin',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the quadrature noise
+                component for this mode
+                ''',
+                'q_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('symbols-index', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter is the symbol index this
+                 mode.
+                ''',
+                'symbols_index',
+                'ietf-ext-xponder-wdm-if', False),
+            ],
+            'ietf-ext-xponder-wdm-if',
+            'if-current-mode',
+            _yang_ns._namespaces['ietf-ext-xponder-wdm-if'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Optifochrsss.IfSupportedMode.ModeList' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Optifochrsss.IfSupportedMode.ModeList',
+            False, 
+            [
+            _MetaInfoClassMember('mode-id', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Id for the OCh mode template
+                ''',
+                'mode_id',
+                'ietf-ext-xponder-wdm-if', True),
+            _MetaInfoClassMember('a-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the radial noise
+                component for this mode
+                ''',
+                'a_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('bits-per-symbol', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter the bits per symbol for
+                 this mode.
+                ''',
+                'bits_per_symbol',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-ber-exponent-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Exponent of the FEC BER threshold
+                ''',
+                'fec_ber_exponent_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-ber-mantissa-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 Mantissa of the FEC BER threshold
+                ''',
+                'fec_ber_mantissa_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-bitrate', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Fec Overhead rate 
+                ''',
+                'fec_bitrate',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-gain', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Fec Overhead rate 
+                ''',
+                'fec_gain',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-info', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Fec Type - eg GFEC
+                ''',
+                'fec_info',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('i-center', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The In-phase coordinate of the selected
+                constellation symbol for this mode
+                ''',
+                'i_center',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('i-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the in-phase noise
+                component for this mode
+                ''',
+                'i_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-central-frequency', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                This parameter indicates the minimum
+                 frequency for this template  
+                ''',
+                'max_central_frequency',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-chromatic-dispersion', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Maximum chromatic dispersion of this
+                 mode for this interface
+                ''',
+                'max_chromatic_dispersion',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-diff-group-delay', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Maximum Differential group delay of this
+                 mode for this interface
+                ''',
+                'max_diff_group_delay',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-input-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The maximum input power of this
+                interface
+                ''',
+                'max_input_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-laser-temperature', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Maximum Laser Temperature of this mode for
+                  this interface
+                ''',
+                'max_laser_temperature',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-output-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The maximum output power of this
+                interface
+                ''',
+                'max_output_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-rx-optical-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                Maximum rx optical power of this mode for
+                 this interface
+                ''',
+                'max_rx_optical_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-central-frequency', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                This parameter indicates the minimum
+                 frequency for this template  
+                ''',
+                'min_central_frequency',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-chromatic-dispersion', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Minimum chromatic dispersion of this mode
+                 for this interface
+                ''',
+                'min_chromatic_dispersion',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-diff-group-delay', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Minimum Differential group delay of this
+                 mode for this interface
+                ''',
+                'min_diff_group_delay',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-input-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The minimum input power of this
+                interface
+                ''',
+                'min_input_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-laser-temperature', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Minimum Laser Temperature of this mode for
+                  this interface
+                ''',
+                'min_laser_temperature',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-output-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                The minimum output power of this
+                interface
+                ''',
+                'min_output_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-rx-optical-power', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-50', '-30'), ('-10', '5'), ('10000000', 'None')], [], 
+                '''                Minimum rx optical power of this mode for
+                 this interface
+                ''',
+                'min_rx_optical_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('modulation-format', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Modulation format for this mode
+                ''',
+                'modulation_format',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('num-symbols-in-alphabet', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter the bits per symbol for
+                 this mode.
+                ''',
+                'num_symbols_in_alphabet',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('number-of-lanes', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                Number of optical lanes of this interface
+                ''',
+                'number_of_lanes',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('osnr-margin', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                OSNR margin to FEC threshold
+                ''',
+                'osnr_margin',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('p-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the phase noise
+                component for this mode
+                ''',
+                'p_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-center', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Quadrature coordinate of the selected
+                constellation symbol for this mode
+                ''',
+                'q_center',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-margin', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                Q-Factor margin to FEC threshold
+                ''',
+                'q_margin',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-noise-variance', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The Variance of the quadrature noise
+                component for this mode
+                ''',
+                'q_noise_variance',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('symbols-index', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter is the symbol index this
+                 mode.
+                ''',
+                'symbols_index',
+                'ietf-ext-xponder-wdm-if', False),
+            ],
+            'ietf-ext-xponder-wdm-if',
+            'mode-list',
+            _yang_ns._namespaces['ietf-ext-xponder-wdm-if'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Optifochrsss.IfSupportedMode' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Optifochrsss.IfSupportedMode',
+            False, 
+            [
+            _MetaInfoClassMember('mode-list', REFERENCE_LIST, 'ModeList' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Optifochrsss.IfSupportedMode.ModeList', 
+                [], [], 
+                '''                List of the modes 
+                ''',
+                'mode_list',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('number-of-modes-supported', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                Number of modes
+                supported by this interface
+                ''',
+                'number_of_modes_supported',
+                'ietf-ext-xponder-wdm-if', False),
+            ],
+            'ietf-ext-xponder-wdm-if',
+            'if-supported-mode',
+            _yang_ns._namespaces['ietf-ext-xponder-wdm-if'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams.ModeList' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams.ModeList',
+            False, 
+            [
+            _MetaInfoClassMember('tca-type', REFERENCE_ENUM_CLASS, 'OptIfOchTcaTypesEnum' , 'ydk.models.ietf.ietf_ext_xponder_wdm_if', 'OptIfOchTcaTypesEnum', 
+                [], [], 
+                '''                type of the TCA eg TX Power
+                ''',
+                'tca_type',
+                'ietf-ext-xponder-wdm-if', True),
+            _MetaInfoClassMember('max-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 A TCA is generated if the variable is
+                 more than this value
+                ''',
+                'max_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 A TCA is generated if the variable is
+                 less than this value
+                ''',
+                'min_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            ],
+            'ietf-ext-xponder-wdm-if',
+            'mode-list',
+            _yang_ns._namespaces['ietf-ext-xponder-wdm-if'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams',
+            False, 
+            [
+            _MetaInfoClassMember('central-frequency', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 This parameter indicates the frequency
+                 of this interface 
+                ''',
+                'central_frequency',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('cur-osnr', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 OSNR margin to FEC threshold
+                ''',
+                'cur_osnr',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('cur-q-factor', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Q-Factor of the interface
+                ''',
+                'cur_q_factor',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-ber-exponent', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Pre fec FEC errored words exponent
+                ''',
+                'fec_ber_exponent',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('fec-ber-mantissa', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 Pre fec FEC errored words mantissa
+                ''',
+                'fec_ber_mantissa',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('input-power', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The current input power of this
+                interface
+                ''',
+                'input_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-fec-ber-exponent-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Max Exponent of the FEC BER threshold
+                ''',
+                'max_fec_ber_exponent_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('max-fec-ber-mantissa-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 Max Mantissa of the FEC BER threshold
+                ''',
+                'max_fec_ber_mantissa_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-fec-ber-exponent-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Min Exponent of the FEC BER threshold
+                ''',
+                'min_fec_ber_exponent_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('min-fec-ber-mantissa-threshold', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                 Min Mantissa of the FEC BER threshold
+                ''',
+                'min_fec_ber_mantissa_threshold',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('mode-id', ATTRIBUTE, 'str' , None, None, 
+                [(1, 255)], [], 
+                '''                Id for the OCh mode template
+                ''',
+                'mode_id',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('mode-list', REFERENCE_LIST, 'ModeList' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams.ModeList', 
+                [], [], 
+                '''                List of the tcas
+                ''',
+                'mode_list',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('number-of-tcas-supported', ATTRIBUTE, 'int' , None, None, 
+                [('0', '4294967295')], [], 
+                '''                Number of tcas
+                supported by this interface
+                ''',
+                'number_of_tcas_supported',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('osnr-margin', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 OSNR margin to FEC threshold
+                ''',
+                'osnr_margin',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('output-power', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                The output power for this interface
+                 in .01 dBm.
+                 The setting of the output power is
+                  optional
+                ''',
+                'output_power',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('q-margin', ATTRIBUTE, 'int' , None, None, 
+                [('-2147483648', '2147483647')], [], 
+                '''                 Q-Factor margin to FEC threshold
+                ''',
+                'q_margin',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('uncorrected-words', ATTRIBUTE, 'int' , None, None, 
+                [('0', '18446744073709551615')], [], 
+                '''                 Post FEC errored words
+                ''',
+                'uncorrected_words',
+                'ietf-ext-xponder-wdm-if', False),
+            ],
+            'ietf-ext-xponder-wdm-if',
+            'current-opt-if-och-mode-params',
+            _yang_ns._namespaces['ietf-ext-xponder-wdm-if'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Optifochrsss' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Optifochrsss',
+            False, 
+            [
+            _MetaInfoClassMember('current-opt-if-och-mode-params', REFERENCE_CLASS, 'CurrentOptIfOchModeParams' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams', 
+                [], [], 
+                '''                Current parameters of
+                this interface
+                ''',
+                'current_opt_if_och_mode_params',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('if-current-mode', REFERENCE_CLASS, 'IfCurrentMode' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Optifochrsss.IfCurrentMode', 
+                [], [], 
+                '''                Current mode template of the
+                interface
+                ''',
+                'if_current_mode',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('if-supported-mode', REFERENCE_CLASS, 'IfSupportedMode' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Optifochrsss.IfSupportedMode', 
+                [], [], 
+                '''                Supported mode list of
+                this interface
+                ''',
+                'if_supported_mode',
+                'ietf-ext-xponder-wdm-if', False),
+            ],
+            'ietf-ext-xponder-wdm-if',
+            'optIfOChRsSs',
+            _yang_ns._namespaces['ietf-ext-xponder-wdm-if'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.OpticalTransport' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.OpticalTransport',
+            False, 
+            [
+            _MetaInfoClassMember('attenuator-value', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-15', '-5')], [], 
+                '''                External attenuator value 
+                ''',
+                'attenuator_value',
+                'ietf-opt-parameters-wdm', False),
+            _MetaInfoClassMember('channel-power-ref', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-10', '15')], [], 
+                '''                Optical power per channel
+                ''',
+                'channel_power_ref',
+                'ietf-opt-parameters-wdm', False),
+            _MetaInfoClassMember('offset', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-30', '30')], [], 
+                '''                Raman and power amplifiers offset
+                ''',
+                'offset',
+                'ietf-opt-parameters-wdm', False),
+            _MetaInfoClassMember('tilt-calibration', ATTRIBUTE, 'Decimal64' , None, None, 
+                [('-5', '5')], [], 
+                '''                Amplifier Tilt tuning
+                ''',
+                'tilt_calibration',
+                'ietf-opt-parameters-wdm', False),
+            ],
+            'ietf-opt-parameters-wdm',
+            'optical-transport',
+            _yang_ns._namespaces['ietf-opt-parameters-wdm'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Ppp.Authentication.Password' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Ppp.Authentication.Password',
+            False, 
+            [
+            _MetaInfoClassMember('cipher', ATTRIBUTE, 'str' , None, None, 
+                [], ['$0$.*|$1$[a-zA-Z0-9./]{1,8}$[a-zA-Z0-9./]{22}|$5$(rounds=\\d+$)?[a-zA-Z0-9./]{1,16}$[a-zA-Z0-9./]{43}|$6$(rounds=\\d+$)?[a-zA-Z0-9./]{1,16}$[a-zA-Z0-9./]{86}'], 
+                '''                The password for cipher type.
+                ''',
+                'cipher',
+                'ietf-if-ext-ppp', False),
+            _MetaInfoClassMember('simple', ATTRIBUTE, 'str' , None, None, 
+                [], ['$0$.*|$1$[a-zA-Z0-9./]{1,8}$[a-zA-Z0-9./]{22}|$5$(rounds=\\d+$)?[a-zA-Z0-9./]{1,16}$[a-zA-Z0-9./]{43}|$6$(rounds=\\d+$)?[a-zA-Z0-9./]{1,16}$[a-zA-Z0-9./]{86}'], 
+                '''                The password for simple type.
+                ''',
+                'simple',
+                'ietf-if-ext-ppp', False),
+            ],
+            'ietf-if-ext-ppp',
+            'password',
+            _yang_ns._namespaces['ietf-if-ext-ppp'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Ppp.Authentication' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Ppp.Authentication',
+            False, 
+            [
+            _MetaInfoClassMember('chap', ATTRIBUTE, 'Empty' , None, None, 
+                [], [], 
+                '''                Authentication pap for PPP.
+                ''',
+                'chap',
+                'ietf-if-ext-ppp', False),
+            _MetaInfoClassMember('pap', ATTRIBUTE, 'Empty' , None, None, 
+                [], [], 
+                '''                Authentication pap for PPP.
+                ''',
+                'pap',
+                'ietf-if-ext-ppp', False),
+            _MetaInfoClassMember('password', REFERENCE_CLASS, 'Password' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Ppp.Authentication.Password', 
+                [], [], 
+                '''                The password configuraiton sub-tree.
+                ''',
+                'password',
+                'ietf-if-ext-ppp', False),
+            _MetaInfoClassMember('user', ATTRIBUTE, 'str' , None, None, 
+                [], [], 
+                '''                the user name string identifying ppp
+                ''',
+                'user',
+                'ietf-if-ext-ppp', False),
+            ],
+            'ietf-if-ext-ppp',
+            'authentication',
+            _yang_ns._namespaces['ietf-if-ext-ppp'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
+    'Interfaces.Interface.Ppp' : {
+        'meta_info' : _MetaInfoClass('Interfaces.Interface.Ppp',
+            False, 
+            [
+            _MetaInfoClassMember('authentication', REFERENCE_CLASS, 'Authentication' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Ppp.Authentication', 
+                [], [], 
+                '''                The authentication configuration subtree.
+                ''',
+                'authentication',
+                'ietf-if-ext-ppp', False),
+            _MetaInfoClassMember('enabled', ATTRIBUTE, 'bool' , None, None, 
+                [], [], 
+                '''                This leaf contains the configured, desired state of the
+                ppp link-protocol.
+                ''',
+                'enabled',
+                'ietf-if-ext-ppp', False),
+            ],
+            'ietf-if-ext-ppp',
+            'ppp',
+            _yang_ns._namespaces['ietf-if-ext-ppp'],
+        'ydk.models.ietf.ietf_interfaces'
+        ),
+    },
     'Interfaces.Interface.LinkUpDownTrapEnableEnum' : _MetaInfoEnum('LinkUpDownTrapEnableEnum', 'ydk.models.ietf.ietf_interfaces',
         {
             'enabled':'enabled',
@@ -128,6 +1220,30 @@ _meta_table = {
                 ''',
                 'link_up_down_trap_enable',
                 'ietf-interfaces', False),
+            _MetaInfoClassMember('optical-transport', REFERENCE_CLASS, 'OpticalTransport' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.OpticalTransport', 
+                [], [], 
+                '''                Specific optical-transport Data
+                ''',
+                'optical_transport',
+                'ietf-opt-parameters-wdm', False),
+            _MetaInfoClassMember('optIfOChRsSs', REFERENCE_CLASS, 'Optifochrsss' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Optifochrsss', 
+                [], [], 
+                '''                RsSs path configuration for an interface
+                ''',
+                'optifochrsss',
+                'ietf-ext-xponder-wdm-if', False),
+            _MetaInfoClassMember('ppp', REFERENCE_CLASS, 'Ppp' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.Ppp', 
+                [], [], 
+                '''                A ppp interface must specify the global parameters.
+                ''',
+                'ppp',
+                'ietf-if-ext-ppp', False),
+            _MetaInfoClassMember('qos-target-entry', REFERENCE_LIST, 'QosTargetEntry' , 'ydk.models.ietf.ietf_interfaces', 'Interfaces.Interface.QosTargetEntry', 
+                [], [], 
+                '''                policy target for inbound or outbound direction
+                ''',
+                'qos_target_entry',
+                'ietf-qos-target', False),
             _MetaInfoClassMember('type', REFERENCE_IDENTITY_CLASS, 'InterfaceTypeIdentity' , 'ydk.models.ietf.ietf_interfaces', 'InterfaceTypeIdentity', 
                 [], [], 
                 '''                The type of the interface.
@@ -267,12 +1383,6 @@ _meta_table = {
                 ''',
                 'in_octets',
                 'ietf-interfaces', False),
-            _MetaInfoClassMember('in-pkts', ATTRIBUTE, 'int' , None, None, 
-                [('0', '18446744073709551615')], [], 
-                '''                total packets input
-                ''',
-                'in_pkts',
-                'ietf-interfaces-ext', False),
             _MetaInfoClassMember('in-unicast-pkts', ATTRIBUTE, 'int' , None, None, 
                 [('0', '18446744073709551615')], [], 
                 '''                The number of packets, delivered by this sub-layer to a
@@ -380,12 +1490,6 @@ _meta_table = {
                 ''',
                 'out_octets',
                 'ietf-interfaces', False),
-            _MetaInfoClassMember('out-pkts', ATTRIBUTE, 'int' , None, None, 
-                [('0', '18446744073709551615')], [], 
-                '''                total packets output
-                ''',
-                'out_pkts',
-                'ietf-interfaces-ext', False),
             _MetaInfoClassMember('out-unicast-pkts', ATTRIBUTE, 'int' , None, None, 
                 [('0', '18446744073709551615')], [], 
                 '''                The total number of packets that higher-level protocols
@@ -404,29 +1508,6 @@ _meta_table = {
             'ietf-interfaces',
             'statistics',
             _yang_ns._namespaces['ietf-interfaces'],
-        'ydk.models.ietf.ietf_interfaces'
-        ),
-    },
-    'InterfacesState.Interface.Bandwidth' : {
-        'meta_info' : _MetaInfoClass('InterfacesState.Interface.Bandwidth',
-            False, 
-            [
-            _MetaInfoClassMember('units', ATTRIBUTE, 'str' , None, None, 
-                [], [], 
-                '''                Units of the bandwidth.
-                ''',
-                'units',
-                'ietf-interfaces-ext', False),
-            _MetaInfoClassMember('value', ATTRIBUTE, 'int' , None, None, 
-                [('0', '18446744073709551615')], [], 
-                '''                Raw value for the bandwidth.
-                ''',
-                'value',
-                'ietf-interfaces-ext', False),
-            ],
-            'ietf-interfaces-ext',
-            'bandwidth',
-            _yang_ns._namespaces['ietf-interfaces-ext'],
         'ydk.models.ietf.ietf_interfaces'
         ),
     },
@@ -470,12 +1551,6 @@ _meta_table = {
                 ''',
                 'admin_status',
                 'ietf-interfaces', False),
-            _MetaInfoClassMember('bandwidth', REFERENCE_CLASS, 'Bandwidth' , 'ydk.models.ietf.ietf_interfaces', 'InterfacesState.Interface.Bandwidth', 
-                [], [], 
-                '''                Bandwidth data for an interface.
-                ''',
-                'bandwidth',
-                'ietf-interfaces-ext', False),
             _MetaInfoClassMember('higher-layer-if', REFERENCE_LEAFLIST, 'str' , None, None, 
                 [], [], 
                 '''                A list of references to interfaces layered on top of this
@@ -580,7 +1655,23 @@ _meta_table = {
         ),
     },
 }
+_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTwoColorMeterStatistics']['meta_info'].parent =_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics']['meta_info']
+_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.OneRateTriColorMeterStatistics']['meta_info'].parent =_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics']['meta_info']
+_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics.TwoRateTriColorMeterStatistics']['meta_info'].parent =_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics']['meta_info']
+_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.ClassifierEntryStatistics']['meta_info'].parent =_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics']['meta_info']
+_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics.DiffservActionStatistics']['meta_info'].parent =_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics']['meta_info']
+_meta_table['Interfaces.Interface.QosTargetEntry.QosTargetClassifierStatistics']['meta_info'].parent =_meta_table['Interfaces.Interface.QosTargetEntry']['meta_info']
+_meta_table['Interfaces.Interface.Optifochrsss.IfSupportedMode.ModeList']['meta_info'].parent =_meta_table['Interfaces.Interface.Optifochrsss.IfSupportedMode']['meta_info']
+_meta_table['Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams.ModeList']['meta_info'].parent =_meta_table['Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams']['meta_info']
+_meta_table['Interfaces.Interface.Optifochrsss.IfCurrentMode']['meta_info'].parent =_meta_table['Interfaces.Interface.Optifochrsss']['meta_info']
+_meta_table['Interfaces.Interface.Optifochrsss.IfSupportedMode']['meta_info'].parent =_meta_table['Interfaces.Interface.Optifochrsss']['meta_info']
+_meta_table['Interfaces.Interface.Optifochrsss.CurrentOptIfOchModeParams']['meta_info'].parent =_meta_table['Interfaces.Interface.Optifochrsss']['meta_info']
+_meta_table['Interfaces.Interface.Ppp.Authentication.Password']['meta_info'].parent =_meta_table['Interfaces.Interface.Ppp.Authentication']['meta_info']
+_meta_table['Interfaces.Interface.Ppp.Authentication']['meta_info'].parent =_meta_table['Interfaces.Interface.Ppp']['meta_info']
+_meta_table['Interfaces.Interface.QosTargetEntry']['meta_info'].parent =_meta_table['Interfaces.Interface']['meta_info']
+_meta_table['Interfaces.Interface.Optifochrsss']['meta_info'].parent =_meta_table['Interfaces.Interface']['meta_info']
+_meta_table['Interfaces.Interface.OpticalTransport']['meta_info'].parent =_meta_table['Interfaces.Interface']['meta_info']
+_meta_table['Interfaces.Interface.Ppp']['meta_info'].parent =_meta_table['Interfaces.Interface']['meta_info']
 _meta_table['Interfaces.Interface']['meta_info'].parent =_meta_table['Interfaces']['meta_info']
 _meta_table['InterfacesState.Interface.Statistics']['meta_info'].parent =_meta_table['InterfacesState.Interface']['meta_info']
-_meta_table['InterfacesState.Interface.Bandwidth']['meta_info'].parent =_meta_table['InterfacesState.Interface']['meta_info']
 _meta_table['InterfacesState.Interface']['meta_info'].parent =_meta_table['InterfacesState']['meta_info']
